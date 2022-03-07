@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background: #000;
+    color: #fff;
+
+}
+.header .menu ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header .menu ul li{
+    list-style: none;
+
+}
+.header .menu ul li a{
+    display: block;
+    color: #fff;
+    padding: 12px 24px;
+    text-decoration: none;
+
+}
+
+.header .search img{
+    width: 40px;
+    margin-right: 20px;
+    margin-top: 6px;
+}
+.img img{
+    width: 100% ;
+    height: 100vh;
+}
+.band{
+    display: block;
+    padding: 64px 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+.band h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0;
+
+    
+}
+.band .we{
+    text-align: center;
+    opacity: .6;
+    
+}
+.band .t{
+    text-align: justify;
+    word-break: break-word;
+    width: 768px;
+    height: 135px;
+    margin: 15px 0;
+
+}
+.band .rasm{
+    display: flex;
+    padding: 32px 0;
+}
+
+.band .rasm .rasmlar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+.band .rasm .rasmlar img{
+    margin-bottom: 16px;
+    width: 60%;
+    border-radius: 4px;
+}
+.kara{
+    background: #000;
+    color: #fff;
+
+}
+.kara .q{
+    width: 800px;
+    margin: 0 auto;
+    padding: 64px 0;
+}
+.kara .q h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+.kara .q p{
+    text-align: center;
+    opacity: .6;
+
+
+}
+.september{
+    background: #fff;
+    color: #757575;
+    width: 800px;
+    /* border: 1px solid #ddd; */
+    height: 120px;
+    margin: 0 auto;
+}
+.september ul li{
+    display: flex;
+    padding: 8px 16px;
+    border: 1px solid #ddd;
+
+
+}
+.september ul li span{
+    background: #f44336;
+    color: #fff;
+    margin-left: 16px;
+    padding: 0 8px;
+}
+.september .raqam  span{
+    background: #000;
+    color: #fff;
+    margin-left: 620px;
+    border-radius: 50%;
+}
+/* .kara .nev{
+    margin: 0 16px;
+    padding: 32px 8px;
+    width: 800px;
+    height: 468px;
+} */
+.nev{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+
+
+
+
+    
+}
+.box1 img{
+    width: 250px;
+    padding-top: 50px;
+    margin-left: 275px;
+
+}
+.box2 img{
+    width: 250px;
+    padding-top: 50px;
+    margin-left: 25px;
+}
+.box3 img{
+    width: 250px;
+    padding-top: 50px;
+    margin-right: 275px;
+}
+.box4{
+    background: white;
+    color: #000;
+    padding: 10px 16px;
+    width: 250px;
+    margin-left: 275px;
+
+}
+.box4 p{
+    padding: 6px 0;
+}
+
+.box5{
+    color: #000;
+    background: white;
+    width: 250px;
+    margin-left: 25px;
+    padding: 10px 16px;
+
+}
+.box5 p{
+    padding: 6px 0;
+}
+.box6{
+    color: black;
+    background: white;
+    width: 250px;
+    margin-right: 275px;
+    padding: 10px 16px;
+}
+.box6 p{
+    padding: 6px 0;
+}
+
+.box button{
+    background: #000;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    border: none;
+    margin: 10px 0;
+    line-height: 30px;
+
+}
+.box button:hover{
+    background: #ccc;
+    color: #000;
+}
+.contact{
+    width: 800px;
+    padding: 64px 16px;
+    margin: 0 auto;
+
+}
+.contact h2{
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 4px;
+    font-weight: 400;
+    margin: 10px 0;
+
+}
+.contact p{
+    text-align: center;
+    opacity: .6;
+
+}
+
+
+
+
